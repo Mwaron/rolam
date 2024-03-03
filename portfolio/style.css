@@ -1,0 +1,43 @@
+:root {
+    --color1: #dadada;
+}
+
+img {
+    padding-top:30px ;
+    padding-bottom: 30px;
+    border-radius: 50%;
+    width: 200px;
+}
+
+h1 {
+    font-size: 218%;
+}
+
+body {
+    margin: 0px;
+}
+
+.me {
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    width: 200px;
+    background-color: var(--color1);
+    padding: 0px 20px 10px;
+    margin: 0px 0px 0px 30px;
+}
+
+
+.progress {
+    padding-top: 1px;
+    margin-right: 50px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
