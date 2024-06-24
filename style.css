@@ -1,12 +1,15 @@
 :root {
     --color1: #dadada;
+    --links: #0dd817; 
 }
 
 .container{
+    margin-bottom: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 80px;
     padding-left: 80px;
+    gap: 150px;
 
     display: flex;
     justify-content: space-between;
@@ -14,8 +17,20 @@
     border-bottom: 3px solid black;
 
 
+
     /* flex-wrap: wrap; */
     /* gap: 10px; */
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+a:hover{
+    font-size: 20px;
+    color: var(--links);
 }
 
 .cim{
@@ -28,4 +43,20 @@
     display: flex;
     flex: flex-end;
     gap: 45px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    text-align: center;
+}
+
+.részcím{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.content{
+    font-size: 20px;
 }
