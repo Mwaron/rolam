@@ -1,6 +1,13 @@
 :root {
-    --color1: #dadada;
-    --links: #0dd817; 
+    --background: #E9FFF9;
+    --color1: #0B132B; 
+    --color2: #AB87FF;
+
+}
+
+body{
+    margin-top: 0px;
+    background-color: var(--background);
 }
 
 .container{
@@ -14,8 +21,10 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    border-bottom: 3px solid black;
-
+    border: 3px solid black;
+    border-radius: 10px;
+    border-color: #AB87FF;
+        
 
 
     /* flex-wrap: wrap; */
@@ -30,15 +39,20 @@ a{
 
 a:hover{
     font-size: 20px;
-    color: var(--links);
+    color: var
 }
 
+header .navbar a.active {
+    transition: 0.5s ease-out;
+}
+    
 .cim{
  font-size: 35px;
+ color: var(--colo);
 }
 
 
-.helyek{
+.navbar{
     font-size: 20px;
     display: flex;
     flex: flex-end;
@@ -46,17 +60,31 @@ a:hover{
 }
 
 .pages{
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 300px;
     text-align: center;
 }
 
 .részcím{
-    font-size: 40px;
-    padding-bottom: 10px;
+    color: var(--color2);
+    font-size: 90px;
+    padding-bottom: px;
 }
 
 .content{
-    font-size: 20px;
+    font-size: 24px;
+
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: 1.5s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
