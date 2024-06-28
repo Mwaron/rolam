@@ -1,7 +1,7 @@
 :root {
-    --background: #E9FFF9;
-    --color1: #0B132B; 
-    --color2: #AB87FF;
+    --background: #4D7C8A;
+    --color1: #C0CAAD; 
+    --color2: #2A2828;
 
 }
 
@@ -11,6 +11,9 @@ body{
 }
 
 .container{
+    z-index: 1;
+    position: sticky;
+    top: 0;
     margin-bottom: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -21,10 +24,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 2px solid;
+    border-radius: 5px;
     border-color: var(--color1);
-    background-color: var(--color2);
+    background-color: var(--color2); 
         
 
 
@@ -34,13 +37,13 @@ body{
 
 a{
     text-decoration: none;
-    color: #000000;
-    font-size: 20px;
+    color: var(--color1);
+    font-size: 23px;
 }
 
 a:hover{
-    font-size: 20px;
-    color: var
+    font-size: 23px;
+    color: var(--background)
 }
 
 header .navbar a.active {
@@ -48,8 +51,8 @@ header .navbar a.active {
 }
     
 .cim{
- font-size: 35px;
- color: var(--colo);
+    font-size: 40px;
+    color: var(--color1);
 }
 
 
@@ -58,6 +61,7 @@ header .navbar a.active {
     display: flex;
     flex: flex-end;
     gap: 45px;
+
 }
 
 .pages{
@@ -68,13 +72,14 @@ header .navbar a.active {
     text-align: center;
 }
 
-.részcím{
-    color: var(--color2);
+.alcím{
+    color: var(--color1);
     font-size: 90px;
     padding-bottom: px;
 }
 
 .content{
+    color: var(--color2);
     font-size: 24px;
 
 }
