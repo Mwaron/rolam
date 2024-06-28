@@ -23,7 +23,8 @@ body{
     align-items: baseline;
     border: 3px solid black;
     border-radius: 10px;
-    border-color: #AB87FF;
+    border-color: var(--color1);
+    background-color: var(--color2);
         
 
 
