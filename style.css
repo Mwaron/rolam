@@ -35,11 +35,24 @@ body{
     /* gap: 10px; */
 }
 
+.b{
+    background-color: var(--color2);
+    font-size: 25px;
+    color: var(--color1);
+}
+
+
+button:hover{
+    background-color: var(--color1);
+    color: var(--background);
+}
+
 a{
     text-decoration: none;
     color: var(--color1);
     font-size: 23px;
 }
+
 
 a:hover{
     font-size: 23px;
@@ -81,6 +94,8 @@ header .navbar a.active {
 .content{
     color: var(--color2);
     font-size: 24px;
+    padding-left: 500px;
+    padding-right: 500px;
 
 }
 
@@ -94,3 +109,4 @@ header .navbar a.active {
     transform: translateY(0);
     opacity: 1;
   }
+
