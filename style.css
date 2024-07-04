@@ -4,10 +4,22 @@
     --color2: #2A2828;
 
 }
+/* ROLAM.html (nem csak) */
 
+.rolam_pages{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+/* index (nem csak) */
 body{
     margin-top: 0px;
     background-color: var(--background);
+    
 }
 
 
