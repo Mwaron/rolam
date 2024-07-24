@@ -4,18 +4,41 @@
     --color2: #2A2828;
 
 }
-/* ROLAM.html (nem csak) */
+/* ROLAM.html */
 
 .rolam_pages{
+    align-items: center;
     padding-top: 100px;
     display: flex;
     justify-content: space-around;
 
 }
 
+.rpic{
+    scale: 300%;
+}
+
+.rNavbar{
+}
+
+.rolamb{
+    background-color: var(--color2);
+    font-size: 23px;
+    color: var(--color1);
+    border-radius: 6PX;
+    padding: 10PX;
+    border-width: 1PX;
+    border-color: var(--color2);
+    border-style: solid;
+}
+.rolamb:hover{
+    background-color: var(--color1);
+    color: var(--background);
+    border-color: var(--color1);
+}
 
 
-/* index (nem csak) */
+/* index (nem csak az, van benne rolamos is) */
 body{
     margin: 5px;
     background-color: var(--background);
@@ -96,7 +119,6 @@ header .navbar a.active {
 .navbar{
     font-size: 20px;
     display: flex;
-    flex: flex-end;
     gap: 45px;
 
 }
@@ -113,6 +135,7 @@ header .navbar a.active {
     color: var(--color1);
     font-size: 90px;
     margin-bottom: 75px;
+    text-align: center;
 }
 
 .content{
